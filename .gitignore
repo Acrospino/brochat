@@ -1,0 +1,2 @@
+# ignore my .swp files from using vim (oops)
+*.[ca]
