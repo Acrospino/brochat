@@ -5,7 +5,7 @@ A chat client for bros.
 
 Usage: node server.js
 
-Runs on port 3000 by default; point your browser [here](127.0.0.1:3000) after starting the server to see the UI.
+Runs on port 3000 by default; point your browser [here](http://127.0.0.1:3000) after starting the server to see the UI.
 
 ## Organization
 
