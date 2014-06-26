@@ -38,8 +38,13 @@ $(document).ready(function() {
         }
     $('#messages').append(divSystemContentElement(message));
     });
+
     socket.on('joinResult', function(result) {
         $('#room').text(result.room);
+        for (var i = 0; i < result.backlog.length; i++) {
+            var msg = result.backlog[i].message.text;
+            $('#messages').append(divEscapedContentElement(msg));
+        }
         $('#messages').append(divSystemContentElement('Room changed.'));
     });
 
