@@ -1,9 +1,17 @@
 brochat
 =======
 
-A chat web app for bros using Node.js and MongoDB.
+A chat web app for bros using Node.js and MongoDB (uses npm for dependencies).
 
-Usage: node server.js
+Usage:
+
+First time through, use
+
+npm install
+
+to install dependencies, and then run
+
+node server.js
 
 Runs on port 3000 by default; point your browser [here](http://127.0.0.1:3000) after starting the server to see the UI.
 
